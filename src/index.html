@@ -2,9 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Weather</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    Well hey there!!!
+    <div class="wrapper">
+      <h1 class="title">Узнай погоду</h1>
+      <ul class="list">
+        <li class="item msk" >в Москве</li>
+        <li class="item vrn" >в Воронеже</li>
+        <li class="item spb" >в Санкт-Петербурге</li>
+        <li class="item sochi" >в Сочи</li>
+      </ul>
+      <ul class="weather">
+        <li class="weather__item">
+          <div class="weather__item-name">Температура (°C):</div>
+          <div class="temp"></div>
+        </li>
+        <li class="weather__item">
+          <div class="weather__item-name">Ощущаемая температура (°C):</div>
+          <div class="feels-like"></div>
+        </li>
+        <li class="weather__item">
+          <div class="weather__item-name">Скорость ветра (в м/с):</div>
+          <div class="wind-speed"></div>
+        </li>
+        <li class="weather__item">
+          <div class="weather__item-name">Давление (в мм рт. ст.):</div>
+          <div class="pressure-mm"></div>
+        </li>
+        <li class="weather__item">
+          <div class="weather__item-name">Влажность воздуха (в процентах):</div>
+          <div class="humidity"></div>
+        </li>
+      </div>
+    </div>
+    <script src="weather.js"></script>
   </body>
 </html>

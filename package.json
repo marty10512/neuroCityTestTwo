@@ -1,8 +1,8 @@
 {
-  "name": "neurocitytesttwo",
-  "productName": "neurocitytesttwo",
+  "name": "neuroCityTestTwo",
+  "productName": "neuroCityTestTwo",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Its my Electron test application",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
